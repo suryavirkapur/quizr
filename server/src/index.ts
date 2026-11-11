@@ -33,7 +33,9 @@ const QuestionList = z.object({
 });
 
 // OpenAI client
-const openai = new OpenAI({});
+const openai = new OpenAI({
+
+});
 
 // Health check route
 app.get("/health", (c) => {
